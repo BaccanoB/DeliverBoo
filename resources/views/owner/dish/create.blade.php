@@ -51,7 +51,7 @@
                 @error('img_path') {{ $message }} @enderror
             </div>
             <div class="img_container mt-3">
-                <img src="{{asset('storage/dish_image/placeholder-image.png')}}" alt="img" id="edit-image">
+                <img src="{{asset('images/dish_image/placeholder-image.png')}}" alt="img" id="edit-image">
             </div>
         </div>
 

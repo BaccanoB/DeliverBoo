@@ -116,7 +116,7 @@
                             @error('img_path') {{ $message }} @enderror
                         </div>
                         <div class="img_container mt-3">
-                            <img src="{{asset('storage/restaurant_image/placeholder-image.png')}}" alt="img" id="edit-image">
+                            <img src="{{asset('images/restaurant_image/placeholder-image.png')}}" alt="img" id="edit-image">
                         </div>
                     </div>
             

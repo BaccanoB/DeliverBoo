@@ -19,7 +19,7 @@
                     >
                         <div class="img-container">
                             <img
-                                :src="'/storage/' + restaurant.img_path"
+                                :src="'/images/' + restaurant.img_path"
                                 :alt="restaurant.name"
                             />
                         </div>
@@ -43,7 +43,7 @@
                     >
                         <div class="img-container">
                             <img
-                                :src="'/storage/' + restaurant.img_path"
+                                :src="'/images/' + restaurant.img_path"
                                 :alt="restaurant.name"
                             />
                         </div>

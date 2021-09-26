@@ -25,7 +25,7 @@
                 <div class="modal-body">
                     <div class="img-container">
                         <img
-                            :src="'/storage/' + dish.img_path"
+                            :src="'/images/' + dish.img_path"
                             :alt="dish.name"
                         />
                     </div>

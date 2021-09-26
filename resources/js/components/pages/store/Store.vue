@@ -84,7 +84,7 @@
                             <div class="card restaurant h-100">
                                 <div class="img-container">
                                     <img
-                                        :src="'/storage/' + restaurant.img_path"
+                                        :src="'/images/' + restaurant.img_path"
                                         alt=""
                                         class="rounded"
                                     />

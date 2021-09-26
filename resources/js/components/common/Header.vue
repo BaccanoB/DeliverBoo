@@ -30,7 +30,7 @@
                                 <img
                                     class="d-block w-100 rounded"
                                     :src="
-                                        '/storage/' +
+                                        '/images/' +
                                             randomHeaderRestaurants[0].img_path
                                     "
                                     alt=""
@@ -51,7 +51,7 @@
                                 <img
                                     class="d-block w-100"
                                     :src="
-                                        '/storage/' +
+                                        '/images/' +
                                             randomHeaderRestaurants[1].img_path
                                     "
                                     alt=""
@@ -72,7 +72,7 @@
                                 <img
                                     class="d-block w-100"
                                     :src="
-                                        '/storage/' +
+                                        '/images/' +
                                             randomHeaderRestaurants[2].img_path
                                     "
                                     alt=""
@@ -181,7 +181,7 @@
                                             <div class="img-container">
                                                 <img
                                                     :src="
-                                                        '/storage/' +
+                                                        '/images/' +
                                                             searchRestaurant.img_path
                                                     "
                                                     :alt="searchRestaurant.name"

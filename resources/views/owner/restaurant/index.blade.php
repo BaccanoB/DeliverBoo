@@ -14,7 +14,7 @@
             <div class="card" style="width: 18rem;">
                 <div class="img-container">
                     <img
-                        src="{{asset('storage/' . $restaurant->img_path)}}"
+                        src="{{asset('images/' . $restaurant->img_path)}}"
                         class="card-img-top"
                         alt="{{$restaurant->name}}"
                     />

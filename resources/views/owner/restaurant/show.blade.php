@@ -94,7 +94,7 @@
             <div class="col-md-6">
                 {{-- restaurant image --}}
                 <div class="restaurant-image">
-                    <img src="{{ asset('storage/' . $restaurant->img_path) }}" alt="{{ $restaurant->name }} immagine">
+                    <img src="{{ asset('images/' . $restaurant->img_path) }}" alt="{{ $restaurant->name }} immagine">
                 </div>
                 {{-- /restaurant image --}}
             </div>

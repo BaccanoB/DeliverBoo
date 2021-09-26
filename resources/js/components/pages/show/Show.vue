@@ -16,7 +16,7 @@
                                 </h1>
                                 <div class="img-container rounded mb-3 bt-3">
                                     <img
-                                        :src="'/storage/' + restaurant.img_path"
+                                        :src="'/images/' + restaurant.img_path"
                                         alt=""
                                         class="w-100 h-100"
                                     />
@@ -283,7 +283,7 @@
                                             <img
                                                 class="card-img-top"
                                                 :src="
-                                                    '/storage/' + dish.img_path
+                                                    '/images/' + dish.img_path
                                                 "
                                                 alt=""
                                             />

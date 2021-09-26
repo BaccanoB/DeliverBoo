@@ -107,9 +107,6 @@ export default {
             }
         }, 500);
     },
-    beforeDestroy() {
-        cleaInterval(this.timer);
-    },
     computed: {
         sum() {
             let sum = 0;
